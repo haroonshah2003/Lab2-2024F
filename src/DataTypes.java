@@ -13,12 +13,4 @@ public class DataTypes {
         return s;
     }
 
-    public static void main(String[] args) {
-        long x = 500_000_500_000L;
-        List<Integer> lst = new ArrayList<>();
-        for (int i = 1; i <= 1_000_000; i++) {
-            lst.add(i);
-        }
-        System.out.println(sum(lst));
-    }
 }
